@@ -1,0 +1,51 @@
+.h1t1{
+    text-align: center;
+    color: purple;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.h2t1{
+    text-align: center;
+    color: fuchsia;
+}
+.field1{
+    height: 350px;
+    width: 400px;
+    margin-left: 15%;
+    border: 3px solid navy;
+    border-radius: 10%;
+}
+.field2{
+    height: 350px;
+    width: 400px;
+    margin-left: 55%;
+    margin-top: -370px;
+    border: 3px solid navy;
+    border-radius: 10%;
+}
+button{
+    margin-left: 160px;
+    background-color: yellowgreen;
+    color: navy;
+    font-weight: bold;
+}
+#button1{
+    margin-left: 44%;
+    width: 150px;
+}
+input{
+    margin-left: 58px;
+    width: 300px;
+}
+label{
+    margin-left: 25px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top:20px; 
+}
+.div1{
+    color: yellow;
+}

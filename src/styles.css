@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2019/06/Frozen-2-Poster-Anna-Elsa-Cropped.jpg?q=50&fit=crop&w=960&h=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

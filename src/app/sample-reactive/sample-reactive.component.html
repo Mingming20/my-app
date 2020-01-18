@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<br>
+<h2 class="h1t1"> Activity Data Driven</h2>
+<form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+    <fieldset class="field1">
+        <div>
+            <legend>
+                <h2 class="h2t1">Name</h2>
+            </legend>
+            <label>Fisrtname: </label><input class="form-control" formControlName="firstName" placeholder="Fistname here.." />
+            <label>Lastname: </label><input class="form-control" formControlName="lastName" placeholder="Lastname here.." />
+            <label>Email: </label><input class="form-control" formControlName="emailAdd" placeholder="Email here.." /><br><br>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset class="field2">
+        <div>
+            <legend>
+                <h2 class="h2t1">Address</h2>
+            </legend>
+            <label>Street: </label><input class="form-control" formControlName="streetAdd" placeholder="Fistname here.." />
+            <label>City: </label><input class="form-control" formControlName="cityAdd" placeholder="Lastname here.." />
+            <label>State: </label><input class="form-control" formControlName="stateAdd" placeholder="Email here.." />
+            <label>Zip Code: </label><input class="form-control" formControlName="zipAdd" placeholder="Email here.." /><br><br>
+        </div>
+    </fieldset>
+    <div class="div1" *ngIf="info">
+        <fieldset class="field4">
+            <legend>
+                <h1>Data Information:</h1>
+            </legend>
+            <p> <br>{{data}}</p>
+           
+        </fieldset>
+
+    </div>
+
+    <br>
+    <button id="button1" type="submit" class="btn btn-success" [disabled]="!reactiveForm.valid">Submit</button>
+</form>

@@ -1,0 +1,16 @@
+p {
+    color: red;
+    font-size: 20px;
+}
+button{
+    background-color: lightblue;
+    color: purple;
+
+}
+.text1{
+    margin-left: 32%;
+}
+input{
+    margin-left: 32%;
+    width: 30%;
+}
